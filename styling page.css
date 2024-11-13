@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #4e342e;
+    background-color: #aa8970;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #632F2F;
+    color:#ffe0b2;
+  }
+  
+  header a {
+    color:#ffe0b2 ;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+
+  .hero {
+    background-image: url(./background1.jpg);
+    background-size: cover;
+    background-position: center;
+    color:#ffe0b2 ;
+    text-align: center;
+    padding: 100px 20px;
+  }
+  
+  .hero button {
+    padding: 10px 20px;
+    background-color: #d7ccc8;
+    border: none;
+    cursor: pointer;
+    color: #4e342e;
+  }
+  
+
+  .about {
+    padding: 20px;
+    text-align: center;
+  }
+    
+  .about img {
+    max-width: 100%;
+    height: fit-content;
+    margin-top: 10px;
+  }
+  
+  .menu-item img {
+    transition: transform 0.3s ease;
+    width: 100%;
+    max-width: 300px; 
+}
+
+.menu-item img:hover {
+    transform: scale(1.1); 
+}
+
+  .menu {
+    display: flex;
+    gap: 10px;
+    padding: 20px;
+  }
+  
+  .menu-item {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .menu-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .menu-item h4 {
+    color: #6d4c41;
+  }
+  
+
+  .testimonials {
+    padding: 20px;
+    background-color: #d7ccc8;
+    text-align: center;
+    color: #4e342e;
+  }
+  button {
+    padding: 12px 24px;
+    background-color:#472727;  
+    border: none;
+    color: #ffe0b2;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+
+  button:hover {
+    background-color: #6d4c41;  
+    transform: translateY(-3px);  
+  }
+  
+
+  button:active {
+    background-color: #5d4037; 
+    transform: translateY(1px); 
+  }
+  .testimonials blockquote {
+    font-style: italic;
+    margin: 10px 0;
+  }
+  
+
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color:#632F2F;
+    color: #fff;
+  }
+  
+  footer a {
+    color: #ffe0b2;
+  }
+  
